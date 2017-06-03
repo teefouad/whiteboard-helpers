@@ -1,0 +1,9 @@
+@import 'mixins';
+
+.#{$wb-prefix}h-img-responsive {
+  @include wb-helper-img-responsive;
+}
+
+.#{$wb-prefix}h-img-fluid {
+  @include wb-helper-img-fluid;
+}

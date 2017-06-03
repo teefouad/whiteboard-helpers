@@ -1,0 +1,18 @@
+@import '../mixins';
+
+// SOCIAL COLORS ----------------
+
+@include wb-make-helper-bg-color('facebook'       , $wb-color-facebook);
+@include wb-make-helper-bg-color('twitter'        , $wb-color-twitter);
+@include wb-make-helper-bg-color('google-plus'    , $wb-color-gplus);
+@include wb-make-helper-bg-color('vimeo'          , $wb-color-vimeo);
+@include wb-make-helper-bg-color('youtube'        , $wb-color-youtube);
+@include wb-make-helper-bg-color('flickr'         , $wb-color-flickr);
+@include wb-make-helper-bg-color('dribbble'       , $wb-color-dribbble);
+@include wb-make-helper-bg-color('pinterest'      , $wb-color-pinterest);
+@include wb-make-helper-bg-color('linkedin'       , $wb-color-linkedin);
+@include wb-make-helper-bg-color('instagram'      , $wb-color-instagram);
+@include wb-make-helper-bg-color('tumblr'         , $wb-color-tumblr);
+@include wb-make-helper-bg-color('apple'          , $wb-color-apple);
+@include wb-make-helper-bg-color('android'        , $wb-color-android);
+@include wb-make-helper-bg-color('blackberry'     , $wb-color-blackberry);

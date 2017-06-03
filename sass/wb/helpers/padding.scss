@@ -1,0 +1,21 @@
+@import 'mixins';
+
+@include wb-make-helper-padding('none', 0);
+@include wb-make-helper-padding('smallest', $wb-padding-smallest);
+@include wb-make-helper-padding('smaller', $wb-padding-smaller);
+@include wb-make-helper-padding('small', $wb-padding-small);
+@include wb-make-helper-padding('normal', $wb-padding-base);
+@include wb-make-helper-padding('large', $wb-padding-large);
+@include wb-make-helper-padding('larger', $wb-padding-larger);
+@include wb-make-helper-padding('largest', $wb-padding-largest);
+
+@include wb-make-responsive {
+  @include wb-make-helper-padding('none#{$wb-breakpoint-suffix}', 0);
+  @include wb-make-helper-padding('smallest#{$wb-breakpoint-suffix}', $wb-padding-smallest);
+  @include wb-make-helper-padding('smaller#{$wb-breakpoint-suffix}', $wb-padding-smaller);
+  @include wb-make-helper-padding('small#{$wb-breakpoint-suffix}', $wb-padding-small);
+  @include wb-make-helper-padding('normal#{$wb-breakpoint-suffix}', $wb-padding-base);
+  @include wb-make-helper-padding('large#{$wb-breakpoint-suffix}', $wb-padding-large);
+  @include wb-make-helper-padding('larger#{$wb-breakpoint-suffix}', $wb-padding-larger);
+  @include wb-make-helper-padding('largest#{$wb-breakpoint-suffix}', $wb-padding-largest);
+}

@@ -1,0 +1,25 @@
+
+
+@mixin wb-make-helper-visibility($suffix: '') {
+  .#{$wb-prefix}h-invisible#{$suffix} {
+    visibility: hidden;
+  }
+
+  .#{$wb-prefix}h-hidden#{$suffix},
+  .#{$wb-prefix}hide#{$suffix} {
+    display: none;
+  }
+
+  .#{$wb-prefix}h-show-block#{$suffix},
+  .#{$wb-prefix}show#{$suffix} {
+    display: block;
+  }
+
+  .#{$wb-prefix}h-show-inline-block#{$suffix} {
+    display: inline-block;
+  }
+
+  .#{$wb-prefix}h-show-inline#{$suffix} {
+    display: inline;
+  }
+}

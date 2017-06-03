@@ -1,0 +1,15 @@
+@mixin wb-helper-bg-color($color) {
+  background-color: $color;
+}
+
+@mixin wb-make-helper-bg-color($name, $color) {
+  .#{$wb-prefix}h-bg-#{$name} {
+    @include wb-helper-bg-color($color);
+  }
+}
+
+@mixin wb-make-helper-bg-gradient($index) {
+  .#{$wb-prefix}h-bg-gradient-#{$index} {
+    @include wb-gradient($index);
+  }
+}

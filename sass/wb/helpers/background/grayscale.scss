@@ -1,0 +1,19 @@
+@import '../mixins';
+
+// GRAYSCALE COLORS ----------------
+
+@include wb-make-helper-bg-color('light'          , $wb-color-light);
+@include wb-make-helper-bg-color('lighter'        , $wb-color-lighter);
+@include wb-make-helper-bg-color('lightest'       , $wb-color-lightest);
+
+@include wb-make-helper-bg-color('dark'           , $wb-color-dark);
+@include wb-make-helper-bg-color('darker'         , $wb-color-darker);
+@include wb-make-helper-bg-color('darkest'        , $wb-color-darkest);
+
+@include wb-make-helper-bg-color('gray'           , $wb-color-gray);
+@include wb-make-helper-bg-color('gray-light'     , $wb-color-gray-light);
+@include wb-make-helper-bg-color('gray-lighter'   , $wb-color-gray-lighter);
+@include wb-make-helper-bg-color('gray-lightest'  , $wb-color-gray-lightest);
+@include wb-make-helper-bg-color('gray-dark'      , $wb-color-gray-dark);
+@include wb-make-helper-bg-color('gray-darker'    , $wb-color-gray-darker);
+@include wb-make-helper-bg-color('gray-darkest'   , $wb-color-gray-darkest);

@@ -1,0 +1,146 @@
+@import 'mixins';
+
+// TEXT ALIGN ----------------
+
+@include wb-make-helper-text-align;
+
+@include wb-make-responsive {
+  @include wb-make-helper-text-align($wb-breakpoint-suffix);
+}
+
+// TEXT STYLE  ----------------
+
+.#{$wb-prefix}h-text-weight-normal {
+  font-weight: initial;
+}
+
+.#{$wb-prefix}h-text-bold {
+  font-weight: bold;
+}
+
+.#{$wb-prefix}h-text-style-normal {
+  font-style: initial;
+}
+
+.#{$wb-prefix}h-text-italic {
+  font-style: italic;
+}
+
+.#{$wb-prefix}h-text-decoration-normal {
+  text-decoration: initial;
+}
+
+.#{$wb-prefix}h-text-underline {
+  text-decoration: underline;
+}
+
+.#{$wb-prefix}h-text-overline {
+  text-decoration: overline;
+}
+
+.#{$wb-prefix}h-text-strike {
+  text-decoration: line-through;
+}
+
+// TEXT TRANSFORM ----------------
+
+.#{$wb-prefix}h-text-transform-normal {
+  text-transform: initial;
+}
+
+.#{$wb-prefix}h-text-uppercase {
+  text-transform: uppercase;
+}
+
+.#{$wb-prefix}h-text-lowercase {
+  text-transform: lowercase;
+}
+
+.#{$wb-prefix}h-text-capitalize {
+  text-transform: capitalize;
+}
+
+// TEXT WRAP ----------------
+
+.#{$wb-prefix}h-text-pre {
+  white-space: pre;
+}
+
+.#{$wb-prefix}h-text-preline {
+  white-space: pre-line;
+}
+
+.#{$wb-prefix}h-text-prewrap {
+  white-space: pre-wrap;
+}
+
+.#{$wb-prefix}h-text-nowrap {
+  white-space: nowrap;
+}
+
+.#{$wb-prefix}h-text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.#{$wb-prefix}h-text-break {
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+// TEXT SPACING ----------------
+
+.#{$wb-prefix}h-text-spacing {
+  letter-spacing: 4px;
+}
+
+.#{$wb-prefix}h-text-spacing-small {
+  letter-spacing: 3px;
+}
+
+.#{$wb-prefix}h-text-spacing-smaller {
+  letter-spacing: 2px;
+}
+
+.#{$wb-prefix}h-text-spacing-smallest {
+  letter-spacing: 1px;
+}
+
+.#{$wb-prefix}h-text-spacing-large {
+  letter-spacing: 5px;
+}
+
+.#{$wb-prefix}h-text-spacing-larger {
+  letter-spacing: 10px;
+}
+
+.#{$wb-prefix}h-text-spacing-largest {
+  letter-spacing: 15px;
+}
+
+// TEXT SHADOW ----------------
+
+.#{$wb-prefix}h-text-shadow {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.#{$wb-prefix}h-text-shadow-soft {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+.#{$wb-prefix}h-text-shadow-softer {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.#{$wb-prefix}h-text-shadow-softest {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.#{$wb-prefix}h-text-shadow-retro {
+  text-shadow: 1px 1px 0 #fff, 2px 2px 0 #ccc;
+}
+
+.#{$wb-prefix}h-text-shadow-retro-2 {
+  text-shadow: 1px 1px 0 #fff, 3px 3px 0 #ccc;
+}

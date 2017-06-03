@@ -1,0 +1,9 @@
+@import 'mixins';
+
+.#{$wb-prefix}sr-only {
+  @include wb-helper-screen-reader-only;
+}
+
+.#{$wb-prefix}sr-only-focusable {
+  @include wb-helper-screen-reader-focusable;
+}

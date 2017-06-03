@@ -1,0 +1,33 @@
+@import 'mixins';
+
+.#{$wb-prefix}h-cursor-default {
+  cursor: default;
+}
+
+.#{$wb-prefix}h-cursor-pointer {
+  cursor: pointer;
+}
+
+.#{$wb-prefix}h-cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.#{$wb-prefix}h-cursor-text {
+  cursor: text;
+}
+
+.#{$wb-prefix}h-cursor-crosshair {
+  cursor: crosshair;
+}
+
+.#{$wb-prefix}h-cursor-help {
+  cursor: help;
+}
+
+.#{$wb-prefix}h-cursor-progress {
+  cursor: progress;
+}
+
+.#{$wb-prefix}h-cursor-wait {
+  cursor: wait;
+}

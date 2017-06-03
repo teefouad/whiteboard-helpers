@@ -1,0 +1,37 @@
+@import 'mixins';
+
+.#{$wb-prefix}h-position-relative {
+  @include wb-helper-position-relative;
+}
+
+.#{$wb-prefix}h-position-absolute {
+  @include wb-helper-position-absolute;
+}
+
+.#{$wb-prefix}h-position-top {
+  @include wb-helper-position-top;
+}
+
+.#{$wb-prefix}h-position-bottom {
+  @include wb-helper-position-bottom;
+}
+
+.#{$wb-prefix}h-position-top-left {
+  @include wb-helper-position-top-left;
+}
+
+.#{$wb-prefix}h-position-top-right {
+  @include wb-helper-position-top-right;
+}
+
+.#{$wb-prefix}h-position-bottom-left {
+  @include wb-helper-position-bottom-left;
+}
+
+.#{$wb-prefix}h-position-bottom-right {
+  @include wb-helper-position-bottom-right;
+}
+
+.#{$wb-prefix}h-position-cover {
+  @include wb-helper-position-cover;
+}

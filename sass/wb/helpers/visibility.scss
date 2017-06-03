@@ -1,0 +1,14 @@
+@import 'mixins';
+
+[class*='#{$wb-prefix}h-show-'],
+[class*='#{$wb-prefix}h-show-block-'],
+[class*='#{$wb-prefix}h-show-inline-'],
+[class*='#{$wb-prefix}h-show-inline-block-'] {
+  display: none;
+}
+
+@include wb-make-helper-visibility;
+
+@include wb-make-responsive {
+  @include wb-make-helper-visibility($wb-breakpoint-suffix);
+}

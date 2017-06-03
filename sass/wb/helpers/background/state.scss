@@ -1,0 +1,8 @@
+@import '../mixins';
+
+// STATE COLORS ----------------
+
+@include wb-make-helper-bg-color('success'        , $wb-color-success);
+@include wb-make-helper-bg-color('danger'         , $wb-color-danger);
+@include wb-make-helper-bg-color('warning'        , $wb-color-warning);
+@include wb-make-helper-bg-color('info'           , $wb-color-info);

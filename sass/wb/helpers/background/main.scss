@@ -1,0 +1,6 @@
+@import '../mixins';
+
+// MAIN COLORS ----------------
+
+@include wb-make-helper-bg-color('primary'        , $wb-color-primary);
+@include wb-make-helper-bg-color('secondary'      , $wb-color-secondary);

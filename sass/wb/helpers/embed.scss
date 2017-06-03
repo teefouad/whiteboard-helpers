@@ -1,0 +1,33 @@
+@import 'mixins';
+
+.#{$wb-prefix}h-embed-responsive-1x1 {
+  @include wb-helper-embed(1, 1);
+}
+
+.#{$wb-prefix}h-embed-responsive-2x1 {
+  @include wb-helper-embed(2, 1);
+}
+
+.#{$wb-prefix}h-embed-responsive-3x1 {
+  @include wb-helper-embed(3, 1);
+}
+
+.#{$wb-prefix}h-embed-responsive-3x2 {
+  @include wb-helper-embed(3, 2);
+}
+
+.#{$wb-prefix}h-embed-responsive-2x3 {
+  @include wb-helper-embed(2, 3);
+}
+
+.#{$wb-prefix}h-embed-responsive-4x3 {
+  @include wb-helper-embed(4, 3);
+}
+
+.#{$wb-prefix}h-embed-responsive-3x4 {
+  @include wb-helper-embed(3, 4);
+}
+
+.#{$wb-prefix}h-embed-responsive-16x9 {
+  @include wb-helper-embed(16, 9);
+}

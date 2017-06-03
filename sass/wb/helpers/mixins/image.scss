@@ -1,0 +1,11 @@
+@mixin wb-helper-img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@mixin wb-helper-img-fluid {
+  display: block;
+  max-width: none;
+  width: 100%;
+}

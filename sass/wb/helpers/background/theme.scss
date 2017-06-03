@@ -1,0 +1,22 @@
+@import '../mixins';
+
+// THEME COLORS ----------------
+
+@include wb-make-helper-bg-color('vintage-blue'   , $wb-color-vintage-blue);
+@include wb-make-helper-bg-color('blue'           , $wb-color-blue);
+@include wb-make-helper-bg-color('aqua'           , $wb-color-aqua);
+@include wb-make-helper-bg-color('lavender'       , $wb-color-lavender);
+@include wb-make-helper-bg-color('purple'         , $wb-color-purple);
+@include wb-make-helper-bg-color('pink-rose'      , $wb-color-pink-rose);
+@include wb-make-helper-bg-color('grapefruit'     , $wb-color-grapefruit);
+@include wb-make-helper-bg-color('green'          , $wb-color-green);
+@include wb-make-helper-bg-color('grass'          , $wb-color-grass);
+@include wb-make-helper-bg-color('olive-green'    , $wb-color-olive-green);
+@include wb-make-helper-bg-color('mint'           , $wb-color-mint);
+@include wb-make-helper-bg-color('light-mint'     , $wb-color-light-mint);
+@include wb-make-helper-bg-color('red'            , $wb-color-red);
+@include wb-make-helper-bg-color('sweet-red'      , $wb-color-sweet-red);
+@include wb-make-helper-bg-color('bittersweet'    , $wb-color-bittersweet);
+@include wb-make-helper-bg-color('sunflower'      , $wb-color-sunflower);
+@include wb-make-helper-bg-color('orange'         , $wb-color-orange);
+@include wb-make-helper-bg-color('mandarin'       , $wb-color-mandarin);

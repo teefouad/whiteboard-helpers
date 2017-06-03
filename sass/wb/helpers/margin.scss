@@ -1,0 +1,21 @@
+@import 'mixins';
+
+@include wb-make-helper-margin('none', 0);
+@include wb-make-helper-margin('smallest', $wb-margin-smallest);
+@include wb-make-helper-margin('smaller', $wb-margin-smaller);
+@include wb-make-helper-margin('small', $wb-margin-small);
+@include wb-make-helper-margin('normal', $wb-margin-base);
+@include wb-make-helper-margin('large', $wb-margin-large);
+@include wb-make-helper-margin('larger', $wb-margin-larger);
+@include wb-make-helper-margin('largest', $wb-margin-largest);
+
+@include wb-make-responsive {
+  @include wb-make-helper-margin('none#{$wb-breakpoint-suffix}', 0);
+  @include wb-make-helper-margin('smallest#{$wb-breakpoint-suffix}', $wb-margin-smallest);
+  @include wb-make-helper-margin('smaller#{$wb-breakpoint-suffix}', $wb-margin-smaller);
+  @include wb-make-helper-margin('small#{$wb-breakpoint-suffix}', $wb-margin-small);
+  @include wb-make-helper-margin('normal#{$wb-breakpoint-suffix}', $wb-margin-base);
+  @include wb-make-helper-margin('large#{$wb-breakpoint-suffix}', $wb-margin-large);
+  @include wb-make-helper-margin('larger#{$wb-breakpoint-suffix}', $wb-margin-larger);
+  @include wb-make-helper-margin('largest#{$wb-breakpoint-suffix}', $wb-margin-largest);
+}

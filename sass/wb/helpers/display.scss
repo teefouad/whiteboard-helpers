@@ -1,0 +1,37 @@
+@import 'mixins';
+
+// INLINE ----------------
+
+.#{$wb-prefix}h-inline {
+  display: inline;
+}
+
+@include wb-make-responsive {
+  .#{$wb-prefix}h-inline#{$wb-breakpoint-suffix} {
+    display: inline;
+  }
+}
+
+// BLOCK ----------------
+
+.#{$wb-prefix}h-block {
+  display: block;
+}
+
+@include wb-make-responsive {
+  .#{$wb-prefix}h-block#{$wb-breakpoint-suffix} {
+    display: block;
+  }
+}
+
+// INLINE BLOCK ----------------
+
+.#{$wb-prefix}h-inline-block {
+  display: inline-block;
+}
+
+@include wb-make-responsive {
+  .#{$wb-prefix}h-inline-block#{$wb-breakpoint-suffix} {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,14 @@
+@mixin wb-make-helper-margin($name, $margin) {
+  .#{$wb-prefix}h-margin-#{$name} {
+    margin-top: $margin;
+    margin-bottom: $margin;
+  }
+
+  .#{$wb-prefix}h-margin-top-#{$name} {
+    margin-top: $margin;
+  }
+
+  .#{$wb-prefix}h-margin-bottom-#{$name} {
+    margin-bottom: $margin;
+  }
+}

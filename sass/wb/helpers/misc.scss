@@ -1,0 +1,30 @@
+@import 'mixins';
+
+.#{$wb-prefix}h-perspective {
+  perspective: 600px;
+}
+
+.#{$wb-prefix}h-gpu {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.#{$wb-prefix}h-clearfix {
+  @include wb-clear-float();
+}
+
+.#{$wb-prefix}h-round {
+  border-radius: $wb-border-radius-round;
+}
+
+.#{$wb-prefix}rounder {
+  border-radius: $wb-border-radius-rounder;
+}
+
+.#{$wb-prefix}roundest {
+  border-radius: $wb-border-radius-roundest;
+}
+
+.#{$wb-prefix}circle {
+  border-radius: $wb-border-radius-circle;
+}

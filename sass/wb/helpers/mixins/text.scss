@@ -1,0 +1,21 @@
+@mixin wb-make-helper-text-align($suffix: '') {
+  .#{$wb-prefix}h-text-align-default#{$suffix} {
+    text-align: initial;
+  }
+
+  .#{$wb-prefix}h-text-right#{$suffix} {
+    text-align: right;
+  }
+
+  .#{$wb-prefix}h-text-center#{$suffix} {
+    text-align: center;
+  }
+
+  .#{$wb-prefix}h-text-left#{$suffix} {
+    text-align: left;
+  }
+
+  .#{$wb-prefix}h-text-justify#{$suffix} {
+    text-align: justify;
+  }
+}

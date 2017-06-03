@@ -1,0 +1,14 @@
+@mixin wb-make-helper-padding($name, $padding) {
+  .#{$wb-prefix}h-padding-#{$name} {
+    padding-top: $padding;
+    padding-bottom: $padding;
+  }
+
+  .#{$wb-prefix}h-padding-top-#{$name} {
+    padding-top: $padding;
+  }
+
+  .#{$wb-prefix}h-padding-bottom-#{$name} {
+    padding-bottom: $padding;
+  }
+}
